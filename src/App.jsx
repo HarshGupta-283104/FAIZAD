@@ -1,9 +1,10 @@
 import React from 'react'
-
+import Navbar from './Component/Navbar'
 function App() {
   return (
-    <div className='bg-gray-900 h-screen flex items-center justify-center'>
-      <h1 className='text-white'>Radhe Radhe </h1>
+
+    <div>
+      <Navbar />
     </div>
   )
 }
