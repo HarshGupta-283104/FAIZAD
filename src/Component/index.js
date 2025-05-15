@@ -1,4 +1,4 @@
-const navItem = [ "works", "about", "Studio", "insight (soon)", "contact"];
+const navItem = [ "works", "about", "Studio", "insight", "contact"];
 export  {
  navItem
 };
