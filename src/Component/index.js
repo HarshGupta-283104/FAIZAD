@@ -1,4 +1,4 @@
-const navItem = ["Faza", "works", "about", "Studio", "insight (soon)", "contact"];
-export default {
+const navItem = [ "works", "about", "Studio", "insight (soon)", "contact"];
+export  {
  navItem
 };
