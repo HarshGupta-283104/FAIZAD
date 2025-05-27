@@ -2,9 +2,14 @@
 
 @font-face {
     font-family: Medium;
-    src: url(./assets/Font/medium.woff2);
+    src: url(/assets/Font/medium.woff2);
 }
 @font-face {
     font-family: Regular;
-    src: url(./assets/Font/thin.woff2);
+    src: url(/assets/Font/thin.woff2);
 }
+@font-face {
+    font-family: Bold;
+    src: url(/assets/Font/Bold.woff2);
+}
+
