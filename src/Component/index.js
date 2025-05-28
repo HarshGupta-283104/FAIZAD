@@ -133,6 +133,33 @@ export const ImagePopup =[
   FastReliable
 
 ];
+
+export const RoughSlider = [ 
+  PcChair,
+  Status,
+  VenAI,
+  Shoping,
+  Homical2,
+  TaskManagement,
+  Stack,
+  Volt,
+  WebsitePrototype,
+  House,
+  Meeting,
+  Paywise,
+  Feedback,
+  Chats,
+  Collaborate,
+  Dashboard,
+  Dashboard2,
+  Buildings,
+  Cards,
+  FastReliable,
+  Cat3,
+  Ceo,
+  Iphone1,
+  HoldPhone
+]
 export const AboutContent = {
   linkText: "About",
   Content : ["I'm Faza Dzikrulloh — a designer who believes that good design connects, moves, and builds something greater. With a focus on branding, digital experiences, and visual storytelling, I work closely with ambitious people, brands, and organizations to bring ideas to life with clarity and character.", "Currently leading creative projects at Hatypo Studio, I combine thoughtful strategy with contemporary design principles to craft work that feels intuitive and inspiring.", "Whether it's shaping a brand from scratch, designing user-centered interfaces, or creating motion that speaks without words — I’m always driven by the belief that design is a bridge between people and possibility"] 
@@ -236,14 +263,33 @@ export const FeedbackCards = [
     text :["Hatypo Studio truly captured our vision and turned it into a stunning brand. Their team was creative, responsive, and a pleasure to work with. We’re thrilled with the results!"]
     
   }
-]
+];
 
 export const FooterQuestion = ['Have an awesome project?','Or send your brief here'];
-export const FooterQoutes = ['Copyright @2025 All Right Reserved' , 'Design by Faza', 'Development by', 'Hatypo Studio'];
+export const FooterQoutes = ['Copyright @2025 All Right Reserved' , 'Design by Faza', 'Development by'];
+export const FooterLastItem =  'Hatypo Studio';
 
 export const FooterHeadings = ['Contact', 'fazaa@hatypo.studio'];
 
-export const FooterNavItems = ['Home', 'Works', 'Studio', 'Contact']
+export const FooterNavItems = [{
+  NavHeading:'Home',
+  NavItems: ["About","Works","Journey"],
+},
+{ 
+  NavHeading:'Studio',
+  NavItems: ["Hatypo Studio","Habito Studio"]
+
+},
+{
+  NavHeading:'Works',
+  NavItems: ["Dribbble","Behance", "Layers","Upwork"]
+},
+{
+  NavHeading: 'Socail Media',
+  NavItems: ["Linkedin","Instagram","Youtube","X"]
+}];
+export const FooterButton = 'Back To Top';
+
 
 
 
