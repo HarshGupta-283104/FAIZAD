@@ -238,4 +238,13 @@ export const FeedbackCards = [
   }
 ]
 
+export const FooterQuestion = ['Have an awesome project?','Or send your brief here'];
+export const FooterQoutes = ['Copyright @2025 All Right Reserved' , 'Design by Faza', 'Development by', 'Hatypo Studio'];
+
+export const FooterHeadings = ['Contact', 'fazaa@hatypo.studio'];
+
+export const FooterNavItems = ['Home', 'Works', 'Studio', 'Contact']
+
+
+
 
