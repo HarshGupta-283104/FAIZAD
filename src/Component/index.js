@@ -1,5 +1,63 @@
+import {Iphone1,
+  Iphone2,
+  Iphone2_2,
+  AiMeeting,
+  BillBoard,
+  BrandStack,
+  BusStop,
+  BookStack,
+  BrandStack2,
+  Buddy,
+  Buildings,
+  Cabin,
+  CallPc,
+  Car,
+  Cards,
+  Cat,
+  Cat2,
+  Cat3,
+  Celero,
+  CeleroStack,
+  Ceo,
+  ComicalEstate,
+  Chats,
+  Collaborate,
+  Dashboard,
+  Dashboard2,
+  Desk,
+  DoubleQuote,
+  FastReliable,
+  Feedback,
+  GridTypography,
+  GuidlinesStack,
+  HatypoMobileWhite,
+  HatypoPc,
+  HatypoPc2,
+  HatypoStack,
+  HoldPhone,
+  Homical,
+  Homical2,
+  HomicalLogo,
+  House,
+  IdCard,
+  IphoneCorner,
+  Meeting,
+  OurServicePc,
+  Paywise,
+  PcChair,
+  ProswayPc,
+  Shoping,
+  ShadowPc,
+  Stack,
+  Standing,
+  Status,
+  TaskManagement,
+  Uneek,
+  VenAI,
+  Volt,
+  Webinar,
+  WebsitePrototype} from "../../public/assets/Image/Utills";
 
-import {HatypoPc2, Buddy, HatypoMobileWhite, } from '../../public/assets/Image/Utills'
 export const navItem = [ "works", "about", "Studio", "insight", "contact"];
 export const MarqueeData = ['Featured Works', '©2024-2025'];
 
@@ -57,7 +115,23 @@ export const ImagePopup =[
   Status,
   VenAI,
   Shoping,
-  Homical2
+  Homical2,
+  TaskManagement,
+  Stack,
+  Volt,
+  WebsitePrototype,
+  House,
+  Meeting,
+  Paywise,
+  Feedback,
+  Chats,
+  Collaborate,
+  Dashboard,
+  Dashboard2,
+  Buildings,
+  Cards,
+  FastReliable
+
 ];
 export const AboutContent = {
   linkText: "About",
@@ -68,12 +142,12 @@ export const TextWide = [
   {
     id:0,
     text: ["UIUX","Design"],
-    imagePop: Chatstack
+    imagePop: Chats
   },
   {
     id:1,
     text:["Branding", "Design"],
-    imagePop: CereloStack,
+    imagePop: CeleroStack,
     
   },
   {
@@ -124,5 +198,44 @@ export const TextHover = [
   }
 ];
 
+export const FeedbackMarquee =["Client Feedbacks©2024-25 "]; 
+
+export const FeedbackCards = [
+  {
+    id:0,
+    Heading: ['Moaz',' CEO THINKTURKEY'],
+    img : DoubleQuote,
+    text :["Working with Faza and his team was an incredibly professional experience. Their dedication to excellence and customer service is at another level. They do endless revisions, and follow through on their promises. In addition their design sense, and quality of production is very high. Highly recommend working with them!"]
+
+  },
+  {
+    id:1,
+    Heading: ["James","FOUNDER LIVEMORE"],
+    img : DoubleQuote,
+    text :["Faza & Hatypo Studio team is responsive and welcomes feedback to implement. They can improve interpretation of design briefs and attention to detail to avoid lengthy feedback loops. The team here can do a good job."]
+    
+  },
+  {
+    id:3,
+    Heading: ["Mohannad"," CEO CACTIX"],
+    img : DoubleQuote,
+    text :["Faza is the best web designer i have ever cooperated. His revise is very quickly, and allows limtless revise if you are not satisfied. highly recommend!"]
+    
+  },
+  {
+    id:4,
+    Heading: ["Obi Michael", "FOUNDER LUCIDBLACK.IO"],
+    img : DoubleQuote,
+    text :["Hatypo Studio revamped our website, making it beautiful and easy to use. Their attention to detail and collaboration made all the difference. We've seen great results since the launch!"]
+    
+  },
+  {
+    id:5,
+    Heading: ["Antonio","CEO SOLVENTLIFE"],
+    img : DoubleQuote,
+    text :["Hatypo Studio truly captured our vision and turned it into a stunning brand. Their team was creative, responsive, and a pleasure to work with. We’re thrilled with the results!"]
+    
+  }
+]
 
 

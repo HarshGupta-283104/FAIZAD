@@ -1,7 +1,7 @@
-import React from 'react'
-import * as objec from './index'
+import React from 'react';
+import * as object from './index'
 function Hero() {
-  console.log(objec);
+  console.log(object);
   
  
   return (
