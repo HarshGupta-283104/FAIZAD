@@ -1,7 +1,8 @@
 import React from 'react'
-import { CardMarqueeData } from '.'
+import * as objec from './index'
 function Hero() {
- console.log(CardMarqueeData);
+  console.log(objec);
+  
  
   return (
     <div className='w-full h-screen bg-blue-600 pt-30'>
