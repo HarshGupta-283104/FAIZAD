@@ -1,4 +1,3 @@
-
 import Iphone1 from '/assets/Image/1Iphone.png';
 import Iphone2 from '/assets/Image/2Iphone.png';
 import Iphone2_2 from '/assets/Image/2Iphone2.png';
@@ -33,7 +32,9 @@ import PcChair from '/assets/Image/PcChair.png';
 import Standing from '/assets/Image/Standing.png';
 import Status from '/assets/Image/Status.png';
 import VenAI from '/assets/Image/VenAI.png';
-import Shoping from '/assets/Image/Shoping.png'
+import Shoping from '/assets/Image/Shoping.png';
+import Homical2 from '/assets/Image/Homica2.png';
+import Meeting from '/assets/Image/Meeting.png';
 
 
 export {
@@ -71,5 +72,7 @@ export {
   Standing,
   Status,
   VenAI,
-  Shoping
+  Shoping,
+  Homical2,
+  Meeting
 };

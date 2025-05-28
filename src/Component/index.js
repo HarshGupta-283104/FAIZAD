@@ -1,4 +1,4 @@
-import { Cat2, GuidlinesStack, HatypoMobileWhite, HatypoPc, HatypoPc2, HoldPhone, Homical, HomicalLogo, Iphone1, Iphone2, Iphone2_2, OurServicePc, PcChair, VenAI } from "./Utills";
+import { Cat2, GuidlinesStack, HatypoMobileWhite, HatypoPc, HatypoPc2, HoldPhone, Homical2, Homical, HomicalLogo, Iphone1, Iphone2, Iphone2_2, OurServicePc, PcChair, VenAI, BusStop, GridTypography, IdCard, Cat, Buddy, BookStack, Cabin, Standing, Car, CallPc, ComicalEstate, IphoneCorner, Meeting } from "./Utills";
 export const navItem = [ "works", "about", "Studio", "insight", "contact"];
 export const MarqueeData = ['Featured Works', '©2024-2025'];
 
@@ -17,14 +17,55 @@ export const CardMarqueeData = [
         Description: "VenAI is a next-generation AI messaging app designed to revolutionize digital communication with intelligent, seamless, and adaptive interactions. This project showcases the complete visual identity and UI/UX design, combining futuristic aesthetics with user-friendly functionality. Every design choice reflects the synergy between technology and human connection, ensuring an intuitive and immersive messaging experience.",
         linkText: "View Case Study",
         RightImage: [GuidlinesStack, VenAI],
-        BottomImage : [Iphone2, Iphone1, Iphone2_2, Iphone1],
+        BottomImage : [Iphone2, IphoneCorner, Iphone2_2, Iphone1],
     },
     {
         id: 2,
         Heading: "Homical real estate",
         Description: "Homical is a modern real estate brand built on trust, elegance, and innovation. Its visual identity combines clean typography, a balanced color palette, and a minimalist design to create a professional yet welcoming feel. The logo symbolizes stability and reliability, while the overall aesthetic ensures a strong, recognizable presence.Designed for both digital and print, Homical’s branding maintains clarity and consistency, making real estate more accessible and aspirational. Every detail reflects a commitment to quality and a fresh approach to property experiences.",
         linkText: "View Case Study",
-        RightImage: [HomicalLogo, Homical ],
-        BottomImage : [, Iphone1, Iphone2_2, Iphone1],
+        RightImage: [HomicalLogo, ComicalEstate ],
+        BottomImage : [Homical2, BusStop, GridTypography, IdCard],
     }
 ];
+
+export const ImageSlider = [Buddy, Meeting ,Cat2, Cat, Buddy, BookStack, Cabin, Standing, Car, CallPc ];
+
+export const ImagePopup = [Cat2, Cat, Buddy, BookStack, Cabin, Standing, Car, CallPc, Cat2, Cat, Buddy, BookStack, Cabin, Standing, Car, CallPc, Homical, Iphone1,
+  Iphone2,
+  Iphone2_2,
+  BillBoard,
+  BookStack,
+  BrandStack,
+  Buddy,
+  BusStop,
+  Cabin,
+  CallPc,
+  Car,
+  Cards,
+  Cat,
+  Cat2,
+  Cat3,
+  Celero,
+  ComicalEstate,
+  Desk,
+  DoubleQuote,
+  GridTypography,
+  GuidlinesStack,
+  HatypoMobileWhite,
+  HatypoPc,
+  HatypoPc2,
+  HoldPhone,
+  Homical,
+  HomicalLogo,
+  IdCard,
+  IphoneCorner,
+  OurServicePc,
+  PcChair,
+  Standing,
+  Status,
+  VenAI,
+  Shoping,
+  Homical2,
+  Meeting];
+  
