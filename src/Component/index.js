@@ -59,7 +59,9 @@ import {Iphone1,
   WebsitePrototype} from "../../public/assets/Image/Utills";
 
 export const navItem = [ "works", "about", "Studio", "insight", "contact"];
+export const heroContent = ['Designer-', 'Creative',' Director', 'At',' ©Hatypo', 'Studio'];
 export const MarqueeData = ['Featured Works', '©2024-2025'];
+export const HeroFooter = ["Build with Love ©2025","Based in Indonesia"];
 
 export const CardMarqueeData = [
   {

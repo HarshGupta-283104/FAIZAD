@@ -1,15 +1,47 @@
 @import "tailwindcss";
 
-@font-face {
-    font-family: Medium;
-    src: url(/assets/Font/medium.woff2);
+*{
+    box-sizing: border-box;
 }
-@font-face {
-    font-family: Regular;
-    src: url(/assets/Font/thin.woff2);
+html , body{
+    height: 100%;
+    width: 100%;
 }
-@font-face {
-    font-family: Bold;
-    src: url(/assets/Font/Bold.woff2);
+body{
+    background: var(--color-blue);
+    width: 100vw;
+    height: 100%;
+    user-select: none;
 }
 
+@font-face {
+    font-family: herothin;
+    src: url(../public/assets/Font/HeroThin.woff2);
+}
+@font-face {
+    font-family: herothinest;
+    src: url(../public/assets/Font/HeroThinest.woff2);
+}
+@font-face {
+    font-family: herothinbold;
+    src: url(../public/assets/Font/HeroThinBold.woff2);
+}
+/*Blue 2032ff  */
+/* White ffffff */
+/* gray-1 dfdfdf */
+/* gray-2 e5e5e5 */
+/* black */
+@theme{
+    --color-blue: #2032ff;
+    --color-white: #ffffff;
+    --color-gray-1: #dfdfdf;
+    --color-gray-2: #e5e5e5;
+}
+@layer utilities{
+    .flex-center{
+        @apply flex items-center justify-center;
+    }
+    .hero-width{
+        @apply  w-screen md:w-[60vw]  leading-31 max-[768px]:leading-none;
+    }
+}
