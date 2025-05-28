@@ -33,7 +33,7 @@ function Hero() {
         <h1 className='text-[9.4rem] font-[herothin] max-[768px]:text-[5em]  uppercase  text-white'>
               {
                 heroContent.map((item, index)=>(
-                    <div key={index} className={`${index ==0 &&'pl-[1.8em] max-[1285px]:pl-0'} overflow-hidden inline-block mr-6 tracking-[-0.3rem] max-[768px]:tracking-normal  relative z-1 h-fit`}>
+                    <div key={index} className={`${index ==0 &&'pl-[1.8em] max-[1285px]:pl-0'} overflow-hidden inline-block mr-10 tracking-[-0.3rem] max-[768px]:tracking-normal  relative z-1 h-fit`}>
                       <span id='SwipeText' className='ml-[-10]  ' >
                       {[...item].map((char, i)=>(
                         <span  ref={(el)=>animateRef.current.push(el)} className={`${char == '-' &&'font-[herothinest] text-[1.2em]'} `} key={i}  >{char}</span>
