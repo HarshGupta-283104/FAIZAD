@@ -33,9 +33,17 @@ import Standing from '/assets/Image/Standing.png';
 import Status from '/assets/Image/Status.png';
 import VenAI from '/assets/Image/VenAI.png';
 import Shoping from '/assets/Image/Shoping.png';
-import Homical2 from '/assets/Image/Homica2.png';
-import Meeting from '/assets/Image/Meeting.png';
-
+import Homical2 from '/assets/Image/Homical2.png';
+import CereloStack from '/assets/Image/CereloStack.png';
+import Chatstack from '/assets/Image/Chats.png'
+import Webinar from  'assets/Image/Webinar.png';
+import Uneek from  'assets/Image/Webinar.png';
+import ProswayPc from  'assets/Image/ProswayPc.png';
+import Meeting from 'assets/Image/meeting.png'
+import AiMeeting from 'assets/Image/AiMeeting.png'
+import HatypoStack from 'assets/Image/HatypoStack.png'
+import BrandStack2 from 'assets/Image/BrandStack2.png'
+import ShadowPc from 'assets/Image/ShadowPc.png'
 
 export {
   Iphone1,
@@ -74,5 +82,15 @@ export {
   VenAI,
   Shoping,
   Homical2,
-  Meeting
+  CereloStack,
+  Chatstack,
+  Webinar,
+  ProswayPc,
+  Uneek,
+  Meeting,
+  AiMeeting,
+  HatypoStack,
+  ShadowPc,
+  BrandStack2,
+
 };

@@ -1,10 +1,10 @@
 import React from 'react'
 import Hero from './Component/Hero'
-import { CardMarqueeData } from './Component'
+import { AboutContent, MarqueeData, TextWide } from './Component';
 function App() {
-
-  console.log(CardMarqueeData);
+  console.log(TextWide);
   
+    
   return (
 
     <div className='w-full h-full flex flex-col items-center justify-center'>
