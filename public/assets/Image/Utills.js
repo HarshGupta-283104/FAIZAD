@@ -34,8 +34,10 @@ import Status from './Status.png';
 import VenAI from './VenAI.png';
 import Shoping from './Shoping.png';
 import Homical2 from './Homical2.png';
-
-
+import AiMeeting from './AiMeeting.png';
+import Chatstack from './Chatstack.png';
+import HatypoStack from './HatypoStack.png';
+import CeleroStack from './CeleroStack.png'
 export {
   Iphone1,
   Iphone2,
@@ -73,6 +75,10 @@ export {
   VenAI,
   Shoping,
   Homical2,
+  AiMeeting,
+  Chatstack,
+  CeleroStack,
+  HatypoStack,
 
 
 };

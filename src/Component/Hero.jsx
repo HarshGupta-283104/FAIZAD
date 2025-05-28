@@ -1,6 +1,7 @@
 import React from 'react'
-
+import { CardMarqueeData } from '.'
 function Hero() {
+ console.log(CardMarqueeData);
  
   return (
     <div className='w-full h-screen bg-blue-600 pt-30'>

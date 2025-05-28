@@ -1,9 +1,6 @@
 import React from 'react'
 import Hero from './Component/Hero'
-// import { AboutContent, MarqueeData, TextWide } from './Component';
-function App() {
-  // console.log(TextWide);
-  
+function App() {  
     
   return (
 
