@@ -1,4 +1,4 @@
-import { Cat2, GuidlinesStack, HatypoMobileWhite, HatypoPc, HatypoPc2, HoldPhone, Homical2, Homical, HomicalLogo, Iphone1, Iphone2, Iphone2_2, OurServicePc, PcChair, VenAI, BusStop, GridTypography, IdCard, Cat, Buddy, BookStack, Cabin, Standing, Car, CallPc, ComicalEstate, IphoneCorner, BillBoard, BrandStack, Celero, Desk, DoubleQuote, Status, Shoping, Chatstack, CereloStack, HatypoStack, Uneek, ShadowPc, ProswayPc, Webinar, AiMeeting, BrandStack2} from "./Utills";
+import { Cat2, GuidlinesStack, HatypoMobileWhite, HatypoPc, HatypoPc2, HoldPhone, Homical2, Homical, HomicalLogo, Iphone1, Iphone2, Iphone2_2, OurServicePc, PcChair, VenAI, BusStop, GridTypography, IdCard, Cat, Buddy, BookStack, Cabin, Standing, Car, CallPc, ComicalEstate, IphoneCorner, BillBoard, BrandStack, Celero, Desk, DoubleQuote, Status, Shoping, Chatstack, CereloStack, HatypoStack, Uneek, ShadowPc, ProswayPc, Webinar, AiMeeting, BrandStack2} from '../../public/assets/Image/Utills';
 export const navItem = [ "works", "about", "Studio", "insight", "contact"];
 export const MarqueeData = ['Featured Works', '©2024-2025'];
 
