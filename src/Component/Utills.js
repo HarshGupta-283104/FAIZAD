@@ -33,6 +33,7 @@ import PcChair from '/assets/Image/PcChair.png';
 import Standing from '/assets/Image/Standing.png';
 import Status from '/assets/Image/Status.png';
 import VenAI from '/assets/Image/VenAI.png';
+import Shoping from '/assets/Image/Shoping.png'
 
 
 export {
@@ -69,5 +70,6 @@ export {
   PcChair,
   Standing,
   Status,
-  VenAI
+  VenAI,
+  Shoping
 };
