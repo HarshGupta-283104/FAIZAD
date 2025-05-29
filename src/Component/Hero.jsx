@@ -31,7 +31,7 @@ function Hero() {
   return (
 <div>
   <div className='flex h-[calc(100vh-30px)]   flex-col justify-between max-[768px]:pb-18 pt-10 ' >
-      <div className='hero-width pt-25 pl-8 md:pt-20 '>
+      <div className='hero-width pt-25 pl-3 md:pt-20 '>
     
         <h1 className='text-[9em] font-[herothin] max-[768px]:text-[5em] pl-4  uppercase  text-white'>
               {
@@ -49,7 +49,7 @@ function Hero() {
         </h1>
       </div>
       
-        <div className='min-w-screen capitalize flex font-[herothinest] text-white gap-2 text-[1rem] pl-5 md:text-[1.1rem] md:gap-6 md:pl-15 md:pb-10'>
+        <div className='min-w-screen capitalize flex font-[herothinest] text-white gap-2 text-[0.9em] pl-5 md:text-[1.1rem] md:gap-6 md:pl-15 md:pb-10'>
             {HeroFooter.map((item,i)=>(
               <span key={i} > {item} </span>
             ))}
