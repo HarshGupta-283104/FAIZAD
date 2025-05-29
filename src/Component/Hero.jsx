@@ -11,15 +11,18 @@ function Hero() {
         gsap.fromTo(el, {
           position: 'relative',
           bottom: -150,
-          opacity:0     
+          opacity:0 ,
+          onComplete: ()=>{
+            
+          }
   },
   {
     y: 0,
-    stagger: 0.1,
-    duration:  1,
+    stagger: index,
+    duration:  0.5,
     bottom:0,
-    delay:0.1*index,
-    opacity:1
+    delay: index * 0.01,
+    opacity:1,
   }
 );
    })
@@ -28,12 +31,12 @@ function Hero() {
   return (
 <div>
   <div className='flex h-[calc(100vh-30px)]   flex-col justify-between max-[768px]:pb-18 pt-10 ' >
-      <div className='hero-width pt-15 pl-8 md:pt-20 '>
+      <div className='hero-width pt-15 pl-8 md:pt-10 '>
     
-        <h1 className='text-[9.4rem] font-[herothin] max-[768px]:text-[5em]  uppercase  text-white'>
+        <h1 className='text-[9rem] font-[herothin] max-[768px]:text-[5em] pl-4  uppercase  text-white'>
               {
                 heroContent.map((item, index)=>(
-                    <div key={index} className={`${index ==0 &&'pl-[1.8em] max-[1285px]:pl-0'} overflow-hidden inline-block mr-5 md:mr-10 tracking-[-0.3rem] max-[768px]:tracking-normal  relative z-1 h-fit`}>
+                    <div key={index} className={`${index ==0 &&'pl-[1.8em] max-[1285px]:pl-0'} overflow-hidden inline-block md:mr-3 tracking-[-0.3rem] max-[768px]:tracking-normal  relative z-1 h-fit`}>
                       <span id='SwipeText' className='ml-[-10]  ' >
                       {[...item].map((char, i)=>(
                         <span  ref={(el)=>animateRef.current.push(el)} className={`${char == '-' &&'font-[herothinest] text-[1.2em]'} `} key={i}  >{char}</span>
