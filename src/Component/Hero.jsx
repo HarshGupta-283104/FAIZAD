@@ -23,6 +23,7 @@ function Hero() {
     bottom:0,
     delay: index * 0.01,
     opacity:1,
+    ease: 'easeinOut',
   }
 );
    })
@@ -36,7 +37,7 @@ function Hero() {
         <h1 className='text-[9em] font-[herothin] max-[768px]:text-[5em] pl-5  uppercase  text-white'>
               {
                 heroContent.map((item, index)=>(
-                    <div key={index} className={`${index ==0 &&'pl-[1.9em] max-[1285px]:pl-0'} overflow-hidden p-2 inline-block md:mr-3 tracking-[-0.3rem] max-[768px]:tracking-normal  relative z-1 h-fit`}>
+                    <div key={index} className={`${index ==0 &&'pl-[1.9em] max-[1285px]:pl-2'} overflow-hidden p-2 inline-block md:mr-3 tracking-[-0.3rem] max-[768px]:tracking-normal  relative z-1 h-fit`}>
                       <span id='SwipeText' className='ml-[-10]  ' >
                       {[...item].map((char, i)=>(
                         <span  ref={(el)=>animateRef.current.push(el)} className={`${char == '-' &&'font-[herothinest] text-[1.2em]'} `} key={i}  >{char}</span>
