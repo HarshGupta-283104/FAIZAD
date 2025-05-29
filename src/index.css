@@ -42,6 +42,7 @@ body{
         @apply flex items-center justify-center;
     }
     .hero-width{
-        @apply  w-screen md:w-[60vw]  leading-31 max-[768px]:leading-18;
+        @apply  w-screen md:w-[60vw]  leading-25 max-[768px]:leading-12;
     }
+    
 }
