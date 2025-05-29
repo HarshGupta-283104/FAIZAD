@@ -33,7 +33,7 @@ function Hero() {
   <div className='flex h-[calc(100vh-30px)]   flex-col justify-between max-[768px]:pb-18 pt-10 ' >
       <div className='hero-width pt-25 pl-3 md:pt-20 '>
     
-        <h1 className='text-[9em] font-[herothin] max-[768px]:text-[5em] pl-4  uppercase  text-white'>
+        <h1 className='text-[9em] font-[herothin] max-[768px]:text-[5em] pl-5  uppercase  text-white'>
               {
                 heroContent.map((item, index)=>(
                     <div key={index} className={`${index ==0 &&'pl-[1.9em] max-[1285px]:pl-0'} overflow-hidden p-2 inline-block md:mr-3 tracking-[-0.3rem] max-[768px]:tracking-normal  relative z-1 h-fit`}>
