@@ -102,6 +102,7 @@ export const ImagePopup =[
   BusStop,
   VenAI,
   Volt,
+  Celero,
   
 
 ];
