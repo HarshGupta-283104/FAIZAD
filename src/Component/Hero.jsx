@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
-import { heroContent, HeroFooter } from '.';
+import { heroContent, HeroFooter, ImagePopup } from '.';
 import gsap from 'gsap';
-import ImageHover from './ImageHover'
+import ImageTrail from './ImageTrail';
 
 function Hero() {
   const animateRef = useRef([]);
@@ -31,7 +31,10 @@ function Hero() {
  
   return (
 <div>
-  <ImageHover/>  
+<ImageTrail 
+   items={ImagePopup} 
+
+/>
   <div className='hero-wrapper' >
       <div className='hero-width'>
     
