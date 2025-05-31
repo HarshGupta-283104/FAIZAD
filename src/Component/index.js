@@ -25,7 +25,6 @@ import {Iphone1,
   Dashboard,
   Dashboard2,
   Desk,
-  DoubleQuote,
   FastReliable,
   Feedback,
   GridTypography,
@@ -56,7 +55,9 @@ import {Iphone1,
   VenAI,
   Volt,
   Webinar,
-  WebsitePrototype} from "../../public/assets/Image/Utills";
+  WebsitePrototype,
+  DoubleQuote
+} from "../../public/assets/Image/Utills";
 
 export const navItem = [ "works", "about", "Studio", "insight", "contact"];
 export const heroContent = ['Designer-', 'Creative',' Director', 'At',' ©Hatypo', 'Studio'];
@@ -99,40 +100,8 @@ export const ImagePopup =[
   BillBoard,
   BrandStack,
   BusStop,
-  Celero,
-  ComicalEstate,
-  Desk,
-  DoubleQuote,
-  GridTypography,
-  GuidlinesStack,
-  HatypoMobileWhite,
-  HatypoPc,
-  HatypoPc2,
-  HoldPhone,
-  HomicalLogo,
-  IdCard,
-  IphoneCorner,
-  OurServicePc,
-  PcChair,
-  Status,
   VenAI,
-  Shoping,
-  Homical2,
-  TaskManagement,
-  Stack,
-  Volt,
-  WebsitePrototype,
-  House,
-  Meeting,
-  Paywise,
-  Feedback,
-  Chats,
-  Collaborate,
-  Dashboard,
-  Dashboard2,
-  Buildings,
-  Cards,
-  FastReliable
+  Volt
 
 ];
 

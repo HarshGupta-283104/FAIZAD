@@ -1,11 +1,11 @@
 import React, { useEffect, useRef } from 'react';
 import { heroContent, HeroFooter } from '.';
-import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
+import ImageHover from './ImageHover'
+
 function Hero() {
   const animateRef = useRef([]);
   useEffect(()=>{
-    console.log("Working");
     
    animateRef.current.forEach((el, index)=>{
         gsap.fromTo(el, {
@@ -19,7 +19,7 @@ function Hero() {
   {
     y: 0,
     stagger: index,
-    duration:  0.5,
+    duration:  1,
     bottom:0,
     delay: index * 0.01,
     opacity:1,
@@ -31,10 +31,11 @@ function Hero() {
  
   return (
 <div>
-  <div className='flex h-[calc(100vh-30px)]   flex-col justify-between max-[768px]:pb-18 pt-10 ' >
-      <div className='hero-width pt-25 pl-3 md:pt-20 '>
+  <ImageHover/>  
+  <div className='hero-wrapper' >
+      <div className='hero-width'>
     
-        <h1 className='text-[9em] font-[herothin] max-[768px]:text-[5em] pl-5  uppercase  text-white'>
+        <h1 className='hero-text'>
               {
                 heroContent.map((item, index)=>(
                     <div key={index} className={`${index ==0 &&'pl-[1.9em] max-[1285px]:pl-3'} overflow-hidden p-2 inline-block md:mr-3 tracking-[-0.3rem] max-[768px]:tracking-normal  relative z-1 h-fit`}>
@@ -50,7 +51,7 @@ function Hero() {
         </h1>
       </div>
       
-        <div className='min-w-screen capitalize flex font-[herothinest] text-white gap-2 text-[0.9em] pl-5 md:text-[1.1rem] md:gap-6 md:pl-15 md:pb-10'>
+        <div className='hero-span'>
             {HeroFooter.map((item,i)=>(
               <span key={i} > {item} </span>
             ))}

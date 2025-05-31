@@ -42,7 +42,18 @@ body{
         @apply flex items-center justify-center;
     }
     .hero-width{
-        @apply  w-screen md:w-[60vw]  leading-25 max-[768px]:leading-12;
+        @apply  w-screen md:w-[60vw]  leading-25 max-[768px]:leading-12 pt-25 pl-3 md:pt-20 ;
     }
-    
+    .hero-wrapper{
+        @apply max-[768px]:pb-18 pt-10 justify-between flex h-[calc(100vh-30px)]   flex-col;
+    }
+    .hero-text{
+        @apply text-[9em] font-[herothin] max-[768px]:text-[5em] pl-5  uppercase  text-white;
+    }
+    .hero-span{
+        @apply min-w-screen capitalize flex font-[herothinest] text-white gap-2 text-[0.9em] pl-5 md:text-[1.1rem] md:gap-6 md:pl-15 md:pb-10;
+    }
+    .nav-main{
+        @apply flex justify-between w-screen py-5 md:px-15 text-[1.3em] px-8 font-[herothin] md:py-8 fixed z-999 text-white ;
+    }
 }
