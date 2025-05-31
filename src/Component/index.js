@@ -101,7 +101,8 @@ export const ImagePopup =[
   BrandStack,
   BusStop,
   VenAI,
-  Volt
+  Volt,
+  
 
 ];
 
