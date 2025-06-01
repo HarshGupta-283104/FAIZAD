@@ -30,7 +30,7 @@ function Hero() {
   },[])
  
   return (
-<div>
+<div className=' fixed z-10'>
 <ImageTrail 
    items={ImagePopup} 
 
